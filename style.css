@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+}
+:root {
+    --bg-color:#1e1e1e;
+    --bt-text: #fff;
+}
+body{
+    background-color: var(--bg-color); 
+    background-image: url(./img/bg.svg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: 20% 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+    
+    & nav{
+        display: flex;
+        gap: 30px;
+    }
+    & a{
+        color: var(--bt-text);
+    }
+    & .icons{
+        display: flex;
+        gap: 17px;
+        color: var(--bt-text);
+    }
+}
